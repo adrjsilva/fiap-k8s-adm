@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  index.html: "<!-- index.html -->\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n
+    \ <meta charset=\"UTF-8\">\n  <title>Demo Kubernetes</title>\n</head>\n<body>\n
+    \ <h1>\U0001F389 Aplicação Rodando no Kubernetes!</h1>\n  <p>Esta página foi servida
+    pelo NGINX com conteúdo vindo de um ConfigMap.</p>\n</body>\n</html>\n\n"
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2025-04-06T16:44:18Z"
+  name: nginx-html
+  namespace: k8sjob
+  resourceVersion: "10277"
+  uid: f243a0cd-32dc-4e66-8867-a72373362852
